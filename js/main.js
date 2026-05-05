@@ -234,18 +234,18 @@ function initContactAndUI() {
               hideAlert();
             }, 8000);
           } else {
-            showAlert('error', 'Something went wrong.', 'Please try again or email us directly at aussiepuppies06@gmail.com.');
+            showAlert('error', 'Something went wrong.', 'Please try again or email us directly at belmontaustralianshepherds@gmail.com.');
             setState(originalText, '', false);
           }
         } catch (err) {
-          showAlert('error', 'Message could not be sent.', 'Please check your connection or email us directly at aussiepuppies06@gmail.com.');
+          showAlert('error', 'Message could not be sent.', 'Please check your connection or email us directly at belmontaustralianshepherds@gmail.com.');
           setState(originalText, '', false);
         }
         return;
       }
 
       // Fallback: open mailto
-      const to = 'aussiepuppies06@gmail.com';
+      const to = 'belmontaustralianshepherds@gmail.com';
       const subject = `Belmont Australian Shepherds Inquiry: ${subjectLabel}`.replace(/\s+/g, ' ').trim();
       const body = [
         '--- Belmont Australian Shepherds - Contact Form ---',
