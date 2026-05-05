@@ -53,7 +53,7 @@
   --radius-lg: 14px;
   --radius-xl: 20px;
 
-  --nav-height: 170px;
+  --nav-height: 70px;
 }
 
 /* --- Reset & Base --- */
@@ -172,11 +172,15 @@ p { margin-bottom: 1rem; font-size: 1.05rem; }
 .nav__logo-img { height: 150px; width: auto; display: block; }
 .nav__logo-name {
   font-family: var(--font-heading);
-  font-size: 1.45rem;
+  font-size: 1.6rem;
   font-weight: 700;
   color: var(--color-primary-dark);
   line-height: 1.1;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
+}
+.footer .nav__logo-name {
+  color: #fff;
+  font-size: 1.4rem;
 }
 .nav__logo-tagline {
   font-family: var(--font-accent);
@@ -1374,7 +1378,7 @@ p { margin-bottom: 1rem; font-size: 1.05rem; }
 }
 
 @media (max-width: 768px) {
-  :root { --nav-height: 150px; }
+  :root { --nav-height: 70px; }
 
   .nav__links {
     display: flex;
